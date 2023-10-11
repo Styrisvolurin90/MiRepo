@@ -17,10 +17,15 @@ body{
     color: #ebebeb;
 }
 
+.navbar-brand{
+    align-items: center;
+}
+
 .nav-item {
     font-family: 'Montserrat', sans-serif;
     color: #ebebeb;
 }
+
 
 
 
