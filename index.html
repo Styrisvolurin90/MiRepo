@@ -16,57 +16,62 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg col-12">
-        <div class="container-fluid col-sm-8 col-md-4 col-lg-7">
-            <!--Menú-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="../Pages/hombres.html">Hombres</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Prueba Coderhouse/Pages/mujeres.html">Mujeres</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Lanzamientos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Hombres</a></li>
-                            <li><a class="dropdown-item" href="#">Mujeres</a></li>
-                            <li><a class="dropdown-item" href="#">Sudaderas</a></li>
-                            <li><a class="dropdown-item" href="#">Shorts</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Prueba Coderhouse/Pages/armaplayera.html">Arma tu playera</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg w-100 text-white">
+        <div class="row col-12">
+            <div class="container-fluid d-flex col-4 col-md-6 col-lg-6">
+                <!--Menú-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Pages/hombres.html">Hombres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Prueba Coderhouse/Pages/mujeres.html">Mujeres</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Lanzamientos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Hombres</a></li>
+                                <li><a class="dropdown-item" href="#">Mujeres</a></li>
+                                <li><a class="dropdown-item" href="#">Sudaderas</a></li>
+                                <li><a class="dropdown-item" href="#">Shorts</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Prueba Coderhouse/Pages/armaplayera.html">Arma tu playera</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Logo-->
+            <div class="d-inline d-sm-flex justify-content-between col-6 col-md-6 col-lg-6">
+                <a class="navbar-brand d-flex col-auto" href="./index.html">
+                    <img src="../img/logo-conquer.png" class="w-100" alt="logoconquer">
+                </a>
+                <!--iconos-->
+                <form class="d-flex align-items-center text-white w-50">
+                    <a class="me-3 text-white"><i class="fas fa-search"></i></a>
+                    <a class="me-3 text-white"><i class="fas fa-user"></i></a>
+                    <a class="me-3 text-white"><i class="fas fa-shopping-cart"></i></a>
+                </form>
             </div>
         </div>
-        <!--Logo-->
-        <a class="navbar-brand col-sm-2 col-md-4 col-lg-3" href="./index.html">
-            <img src="../img/logo-conquer.png" alt="logoconquer">
-        </a>
-        <!--iconos-->
-        <form class="d-flex align-items-center text-white col-sm-3 col-md-4 col-lg-2">
-            <a class="me-3 text-white"><i class="fas fa-search"></i></a>
-            <a class="me-3 text-white"><i class="fas fa-user"></i></a>
-            <a class="me-3 text-white"><i class="fas fa-shopping-cart"></i></a>
-        </form>
+
+
     </nav>
 
-    <div class="container">
+    <div class="container-fluid h-50">
         <div class="row">
             <!--Carrusel-->
             <div id="carouselExampleIndicators" class="carousel slide">
@@ -120,29 +125,29 @@
 
             <div id="masVendidos" class="col-md-12">
                 <div class="row">
-                    <h1>Más Vendidos</h1>
-                    <div class="col-sm-12 col-md-3 card">
+                    <h1 class="my-3 my-md-5">Más Vendidos</h1>
+                    <div class="mb-2 mb-md-5 col-sm-12 col-md-3 card">
                         <img class="card-img-top" src="../img/playera-gokublack.jpg" alt="Tallas">
                         <div class="card-body">
-                            <p class="card-text">CH M G EG</p>
+                            <p class="card-text">CH M G EG <br>$299</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 card">
+                    <div class="mb-2 mb-md-5 col-sm-12 col-md-3 card">
                         <img class="card-img-top" src="../img/playera-gyarados.jpg" alt="Tallas">
                         <div class="card-body">
-                            <p class="card-text">CH M G EG</p>
+                            <p class="card-text">CH M G EG <br>$299</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 card">
+                    <div class="mb-2 mb-md-5 col-sm-12 col-md-3 card">
                         <img class="card-img-top" src="../img/playera-pollito.jpg" alt="Tallas">
                         <div class="card-body">
-                            <p class="card-text">CH M G EG</p>
+                            <p class="card-text">CH M G EG <br>$299</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 card">
+                    <div class="mb-2 mb-md-5 col-sm-12 col-md-3 card">
                         <img class="card-img-top" src="../img/playera-gokublack.jpg" alt="Tallas">
                         <div class="card-body">
-                            <p class="card-text">CH M G EG</p>
+                            <p class="card-text">CH M G EG <br>$299</p>
                         </div>
                     </div>
                 </div>
