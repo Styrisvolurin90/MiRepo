@@ -4,17 +4,17 @@
 }
 
 
-body{
+body {
     background-color: #ebebeb;
     margin: 0;
     padding: 0;
-    font-family:'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     overflow: visible;
 }
 
 .nav-link {
     color: #ebebeb !important;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -22,7 +22,7 @@ body{
     color: #ebebeb;
 }
 
-.navbar-brand{
+.navbar-brand {
     align-items: center;
 }
 
@@ -31,13 +31,23 @@ body{
     color: #ebebeb;
 }
 
-h1{
+h1 {
     text-align: center;
     font-weight: 800;
     color: #333;
 }
 
-.card-text{
+#seccionmujeres {
+    text-align: center;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.card-text {
     font-weight: 600;
     font-size: 1rem;
 }
@@ -73,7 +83,7 @@ h1{
     margin-bottom: 5rem;
 }
 
-.card-title{
+.card-title {
     font-weight: 800;
     font-size: 2rem;
 
@@ -86,7 +96,7 @@ footer {
     padding: 40px 0;
 }
 
-.footer-social i{
+.footer-social i {
     color: #ebebeb;
 
 }
