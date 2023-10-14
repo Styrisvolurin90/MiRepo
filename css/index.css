@@ -37,6 +37,11 @@ h1{
     color: #333;
 }
 
+.card-text{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
 #descuento {
     background-color: red;
     color: #ebebeb;
@@ -49,6 +54,30 @@ h1{
     font-weight: 800;
 }
 
+#legales {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.card-title{
+    font-weight: 800;
+    font-size: 2rem;
+
+}
 
 /*Footer*/
 footer {
