@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    overflow: visible;
+}
+
+.nav-link {
+    color: #ebebeb !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #ebebeb;
+}
+
+.navbar-brand {
+    align-items: center;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #ebebeb;
+}
+
+#logoconquer {
+    max-width: 40%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    color: #333;
+}
+
+#seccionmujeres {
+    text-align: center;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.card-text {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#descuento {
+    background-color: red;
+    color: #ebebeb;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+#legales {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+
+img.card-img-top-icon {
+    max-width: 10%;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: #ebebeb;
+    padding: 40px 0;
+}
+
+.footer-social i {
+    color: #ebebeb;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    max-height: 250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
